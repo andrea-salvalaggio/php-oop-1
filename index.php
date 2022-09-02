@@ -2,7 +2,11 @@
     require_once __DIR__ . '/classes/Movie.php';
 
     $movies = [];
-    $movies[] = new Movie("Io sono leggenda", "azione", 2007);
+    $movies[] = new Movie("Ritorno al futuro", "Fantascienza", 1985);
+    $movies[] = new Movie("The Truman Show", "Commedia", 1998);
+    $movies[] = new Movie("Io sono leggenda", "Azione", 2007);
+    $movies[] = new Movie("Quasi Amici", "Commedia/Drammatico", 2011);
+    $movies[] = new Movie("Noi", "Horror/Thriller", 2019);
 
     // var_dump($movies);
 ?>
